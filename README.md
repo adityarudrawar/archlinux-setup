@@ -1,5 +1,18 @@
 # archlinux-setup
 
+## Volume Control
+```
+sudo pacman -S pipewire pipewire-pulse wireplumber
+```
+Then restart
+```
+systemctl --user restart pipewire wireplumber
+```
+Install Volumne control via GUI
+```
+sudo pacman -S pavucontrol
+```
+
 ## Waybar installation
 
 ```
