@@ -13,11 +13,23 @@ Install Volumne control via GUI
 sudo pacman -S pavucontrol
 ```
 
-## Waybar installation
+## Waybar configuring
 
+Font installation
 ```
 sudo pacman -S ttf-jetbrains-mono
 ```
+
+Hyprlock Installation
+```
+sudo pacman -S hyprlock
+```
+
+wlogout Installtion
+```
+
+```
+
 
 ## Bluetooth installation and configuring
 
