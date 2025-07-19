@@ -18,3 +18,4 @@ sudo pacman -S bluez-utils
  ```
 sudo pacman -S blueman
  ```
+5. Open Bluetooth Manager via App-tray now
