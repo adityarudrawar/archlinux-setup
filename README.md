@@ -18,6 +18,7 @@ sudo pacman -S pavucontrol
 Font installation
 ```
 sudo pacman -S ttf-jetbrains-mono
+sudo pacman -S ttf-space-mono-nerd
 ```
 
 Hyprlock Installation
@@ -27,7 +28,14 @@ sudo pacman -S hyprlock
 
 wlogout Installtion
 ```
+# Install paru
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
 
+# Install wlogout
+paru -Syu wlogout-git
 ```
 
 
