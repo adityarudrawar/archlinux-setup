@@ -2,6 +2,10 @@
 
 ## Waybar installation
 
+```
+sudo pacman -S ttf-jetbrains-mono
+```
+
 ## Bluetooth installation and configuring
 
 1. Required Packages
